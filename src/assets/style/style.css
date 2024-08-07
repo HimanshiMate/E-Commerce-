@@ -1,0 +1,589 @@
+*{
+    text-decoration: none;
+    color: black;
+     overflow-x: hidden;  
+}
+/* =================================== */
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+    position: sticky;
+    top: 0px;
+   font-size: 20px;
+    /* margin: 50px; */
+}
+body{
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    /* margin: 0px; */
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+li{
+    margin: 10px;
+}
+#nav ul li img{
+    /* width: 100px; */
+    margin: 0px;
+}
+/* img{
+    width: 100px;
+} */
+/*#nav {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+    /* background-color: rgb(219, 224, 221); 
+}
+#nav div{
+    /* margin-left: 100px; 
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+
+} */
+#nav  img{
+    width: 100px;
+    margin-left: -550px;
+}
+#car{
+    margin-top: 40px;
+    margin-left: 80px;
+} 
+#bar{
+    float: right;
+    
+}
+
+
+@media(max-width:415px){
+    #nav{
+        display:none;
+    }
+    #inp:checked~#nav{
+        display: block;
+    }
+
+}
+/* ==================================LOGIN========================== */
+#login{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 200px;
+    width: 350px;
+    height: 300px;
+    background-color:rgb(202, 212, 209) ;
+}
+#login div input{
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 260px;
+    height: 35px;
+}
+#login button{
+    margin-top: 40px;
+    width: 150px;
+    
+}
+/* ==================================regler============================ */
+#regler{
+   height: 670px;
+    width: 100%;
+    background-image: url('https://next.minimog.co/cdn/shop/files/1_bee5c8c6-17df-421b-bde5-8262bb2e896d.jpg?v=1631803519&width=1500');
+}
+#aside{
+     float: left; 
+    margin-top: 100px;
+    margin-left: 100px;
+    
+} 
+#d1{
+    font-size: 70px;
+    
+}
+p{
+   margin-top: 25px;
+    font-size: 20px;
+}
+button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(202, 212, 209);
+     font-size: 15px;
+     font-weight: 550;
+} 
+button:hover{
+    color: white;
+    background-color: black;
+}
+@media(max-width:415px){
+    #regler{
+        height: 625px;
+         width: 100%;
+         background-image: url('https://next.minimog.co/cdn/shop/files/1_bee5c8c6-17df-421b-bde5-8262bb2e896d.jpg?v=1631803519&width=1000');
+    }
+     
+    
+    #aside{
+          float: left; 
+         margin-top: 100px;
+         margin-left: 50px;
+     } 
+    
+}
+/* ===================================================================== */
+
+#regler2 div{
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: 550px;
+}
+#regler2 p{
+    font-size: 55px;
+    font-weight: 550px;
+}
+#regler21{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#portion{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 200px;
+    margin-left: 25px;
+    height: 310px;
+    padding: 20px;
+    background-color: rgb(245, 244, 244);
+}
+#portion img{
+    width: 90px;
+    margin-top: 10px;
+}
+#portion img:hover{
+    overflow: hidden;
+}
+#portion div{
+    font-size: 30px;
+}
+
+@media(max-width:415px){
+    #regler2 div{
+        margin-top: 80px;
+        font-size: 15px;
+        font-weight: 550px;
+    }
+    #regler21{
+        display: block;
+        margin-left: 60px;
+        margin-top: -40px;
+        /* grid-template-columns: auto auto auto auto auto; */
+    }
+    #portion{
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        margin:30px;
+        width: 200px;
+        /* margin-left: 25px; */
+        height: 310px;
+        padding: 20px;
+        background-color: rgb(245, 244, 244);
+    }
+}
+/* ========================================================== */
+#reglerimg img{
+    margin-top: 150px;
+    margin-left: 40px;
+     width: 940px; 
+    
+}
+#reglerdetail{
+    
+    width: 400px;
+    margin-left: 990px;
+    margin-top:-750px ;
+}
+#reglerdetail div{
+    font-size: 50px;
+}
+#reglerdetail p{
+    font-size: 18px;
+    color: gray;
+}
+#reglerdetail2{
+   
+    width:400px;
+    margin-left: 70px;
+    height: 400px;
+    margin-top: 650px ;   
+}
+
+#reglerdetail2 div{
+    
+    font-size: 50px;
+}
+#reglerdetail2 p{
+    font-size: 18px;
+    color: gray;
+}
+/* #reglerimg2 img{
+    /* padding-left: 35pc; */
+    /* padding-left: 470px;
+    margin-top :-600px ;
+    /* width: 940px; 
+} */
+@media(max-width:415px){
+    #reglerimg img{
+        margin-top: 50px;
+        margin-left: 40px;
+         width: 400px; 
+        
+    } 
+    #reglerdetail{
+        width: 400px;
+        margin-left: 900px;
+        margin-right: 200px;
+        margin-top:-1120px ;
+    }
+    #reglerdetail2{
+   
+        width:350px;
+        margin-left: 40px;
+        height: 400px;
+        margin-top: 650px ;   
+    }
+}
+/* ================================================== */
+#regler3 div{
+    margin-top: 300px;
+    font-size: 20px;
+    font-weight: 550px;
+}
+#regler3 p{
+    font-size: 55px;
+    font-weight: 550px;
+}
+#regler31 {
+    display: flex;
+    justify-content: center;
+     margin-top: -250px;
+}
+#regler31 div img{
+    width:400px;
+}
+#regler31 div{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#regler31 p{
+    font-size: 20px;
+    font-weight: 550px;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+#regler31 button{
+    width: 350px;
+     background-color: white; 
+    color: black;
+}
+#regler31 button:hover{
+    
+     background-color: black; 
+    color: white;
+}
+@media(max-width:415px){
+    #regler3{
+        margin-top: -200px;
+    }
+    #regler31 {
+        display: block;
+        justify-content: center;
+         margin-top: -300px;
+    }
+    #regler31 div img{
+        width:300px;
+        
+    }
+    #regler31 p{
+        font-size: 30px;
+        font-weight: 550px;
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+    #regler31  button{
+        width: 350px;
+         background-color: white; 
+        color: black;
+        font-size: 20px;
+        margin-top: 0px;
+    
+    }
+    
+}
+/* #regler4{
+    background-image: url("https://next.minimog.co/cdn/shop/files/bg-2.jpg?v=1631841535&width=1000");
+}
+#regler4 div{
+    font-size: 20px;
+}
+#regler4 p{
+    font-size: 50px;
+} */
+/* ================================================================================ */
+#regler4{
+    height: 530px;
+     width: 100%;
+    border: 1px solid black;
+     background-image: url('https://next.minimog.co/cdn/shop/files/bg-2.jpg?v=1631841535&width=1600');
+    margin-top: 100px;
+    /* margin-left: 80px; */
+    color: white;
+}
+ #aside1{
+    float: left; 
+   margin-top: 100px;
+   margin-left: 100px;
+   
+} 
+#d2{
+   font-size: 20px;
+   
+   
+}
+#aside1 p{
+  margin-top: 25px;
+   font-size: 50px;
+
+}
+@media(max-width:415px){
+    #regler4{
+        height: 530px;
+         width: 100%;
+        border: 1px solid black;
+         background-image: url('https://next.minimog.co/cdn/shop/files/bg-2.jpg?v=1631841535&width=900');
+        margin-top: 100px;
+        /* margin-left: 80px; */
+        color: white;
+    }
+}
+/* ===================================================== */
+#regler5{
+    height: 530px;
+     width: 100%;
+    border: 1px solid black;
+     background-image: url('https://next.minimog.co/cdn/shop/files/bg-3.jpg?v=1631869693&width=1600');
+    margin-top: 100px;
+    /* margin-left: 80px; */
+    
+}
+ #aside2{
+    float: right; 
+   margin-top: 100px;
+ margin-right: 100px; 
+   width: 450px;
+   height: 300px;
+   padding: 40px;
+   border: 1px solid white;
+   border-radius: 30px;
+   background-color: white;
+   
+} 
+#d3{
+   font-size: 50px;
+   
+}
+p{
+  margin-top: 30px;
+   font-size: 20px;
+}
+#aside2 button{
+   width: 350px;
+   background-color: white;
+}
+#aside2 button:hover{
+    color: white;
+    background-color:black;
+ }
+
+/* ===============================================================Home PAGE========================== */
+#home{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 230px;
+    background-color: white;
+    
+}
+#home div{
+    margin: 20px;
+    margin-top: 15px;
+    
+}
+
+#home div div{
+    margin: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+/* ========================================================FOXKIT================================== */
+#foxkit{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 380px;
+    
+}
+#foxkit div{
+    margin: 40px;
+    margin-top: 15px;
+    
+}
+
+#foxkit div div{
+    margin: -10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+#foxkit img{
+    padding: 40px;
+    width: 450px;
+}
+/* ====================================================PAGES=================================== */
+#pages{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 270px;
+    height: 200px;
+    margin-right:200px ;
+    background-color: white;
+
+    
+}
+#pages div div{
+    margin-top: 8px;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+    
+}
+/* ===============================================PRODUCTS============================== */
+#products{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    
+}
+#products div{
+    margin: 40px;
+    margin-top: 15px;
+    
+}
+
+#products div div{
+    margin: -10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+   
+}
+#p1{
+    width: 250px;
+    height: 350px;
+
+}
+/* ===========================================================SHOPS=========================================== */
+
+#shops{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+     border: 1px solid black; 
+     border-radius: 10px;
+    width: 100%;
+    height: 380px;
+    /* margin-right: 500px; */
+    
+}
+#shops div{
+     margin: 40px; 
+    margin-top: 15px;
+    
+}
+
+#shops div div{
+     margin: -10px; 
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+#shops img{
+    width: 600px;
+    padding-left: 150px;
+    padding: 40px;
+    
+}
+
+/* =============================================footer=========================== */
+#footer{
+    margin-left: 80px;
+}
+#foot{
+    display: flex;
+    justify-content: right;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -250px;
+}
+#foot  ul li{
+    list-style-type: none;
+    /* font-size: 18px; */
+    color: rgb(123, 118, 118);
+    padding: 10px;
+    
+}
+/* #foot ul div{
+   
+     font-size: 25px; 
+} */
+input{
+    /* font-size: 20px; */
+    border: 1 px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    
+}
+p{
+    /* font-size: 35px; */
+    color: rgb(109, 109, 109);
+}
+#foot div{
+    /* font-size: 50px; */
+    font-weight: 500;
+    color: black;
+} 
